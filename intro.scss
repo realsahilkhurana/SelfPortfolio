@@ -1,0 +1,53 @@
+.intro{
+    background-color: white;
+    display: flex;
+    .left{
+        flex:0.5;
+        background-color: white;
+        overflow: hidden;
+        .imgContainer{
+            width: 700px;
+            height: 700px;
+            background-color: yellow;
+            border-radius: 50%;
+           
+            align-content:right;
+            justify-content: center;
+            float: center;
+            img{
+                width: 90%;
+                align-items: center;
+                padding-left: 40px;
+            }
+
+        }
+
+    }
+    .right {
+        flex: 0.5;
+        position: relative;
+        font-weight: 500;
+        margin:0;
+        border:0;
+    
+        .wrapper {
+          width: auto;
+          height: 100px;
+          padding-left: 10px;
+          padding-bottom: 0px;
+          align-items: right;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-bottom:10%;
+
+          
+        }
+            .myimg{
+            height: 90%;
+            width: 100%;
+            align-items: center;
+            
+        }
+    }
+}
